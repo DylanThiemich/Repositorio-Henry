@@ -1,0 +1,88 @@
+/* Reset de CSS */
+
+/* Establecer márgenes y rellenos en 0 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Normalizar estilos de encabezados */
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+/* Normalizar tamaños de fuente */
+body {
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Establecer estilos para listas */
+ul, ol
+    {list-style: none;
+}
+
+/* Establecer estilos para enlaces */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Establecer estilos para imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Establecer estilos para elementos de formulario */
+input, textarea, select, button {
+    font-family: inherit;
+    font-size: inherit;
+}
+
+/* Establecer estilos para elementos de tabla */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* Establecer estilos para elementos de tabla */
+td, th {
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+/* Establecer estilos para formularios */
+form {
+    display: block;
+}
+
+/* Eliminar subrayado de los botones */
+button {
+    border: none;
+}
+
+/* Establecer estilos para elementos emergentes */
+::selection {
+    background-color: #b3d4fc;
+}
+
+/* Eliminar los contornos predeterminados en algunos navegadores */
+:focus {
+    outline: none;
+}
+
+/* Restablecer estilos para elementos que podrían venir con estilos predeterminados del navegador */
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font: inherit;
+    color: inherit;
+}
+
+/* Establecer estilos para elementos de formulario con atributo 'disabled' */
+[disabled] {
+    cursor: not-allowed;
+    opacity: 0.5;
+}

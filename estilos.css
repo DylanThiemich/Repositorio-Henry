@@ -1,0 +1,22 @@
+ 
+.fondo{background-color: gray ;}
+.miTexto {font-size: 30px;
+color: rgb(255, 255, 255);
+border: 1.2px solid white;
+margin:auto ;
+width: fit-content;}
+.logo {
+    width: 600px; 
+margin: auto;
+padding: 0px 2px 0px 0px 0px;
+border-radius: 10%;
+margin-top: 1.5em;}
+
+    
+    .titulos {margin:auto;color: aliceblue;
+    padding: 0px 1em 0px 0px; }
+.cards{border: 0.5px solid rgb(255, 255, 255);;
+margin: auto;
+width:fit-content ;
+margin: auto;
+border-top: 1.5em;}
